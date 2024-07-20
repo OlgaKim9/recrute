@@ -4,5 +4,5 @@
     <active>false</active>
     <errorConditionFormula>Min_Pay__c  &gt;=  Max_Pay__c</errorConditionFormula>
     <errorDisplayField>Min_Pay__c</errorDisplayField>
-    <errorMessage>Min Pay can not be more than max pay</errorMessage>
+    <errorMessage>Min Pay can not be more than max pay.</errorMessage>
 </ValidationRule>
