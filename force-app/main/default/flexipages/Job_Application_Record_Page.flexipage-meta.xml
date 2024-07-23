@@ -103,13 +103,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Phone_Interview__c</fieldItem>
                 <identifier>RecordPhone_Interview_cField2</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Status__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Phone Screen</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-08bf6629-2f0e-466e-b9d2-44892fdd538a</name>
