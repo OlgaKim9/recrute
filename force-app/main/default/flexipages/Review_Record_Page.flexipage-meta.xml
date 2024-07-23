@@ -113,30 +113,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Reason_Recommended__c</fieldItem>
                 <identifier>RecordReason_Recommended_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Recommend_for_Hire__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>false</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Reason_Recommended__c</fieldItem>
                 <identifier>RecordReason_Recommended_cField2</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Recommend_for_Hire__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-d1b2f563-460a-4623-b8d8-89a100ae1486</name>
