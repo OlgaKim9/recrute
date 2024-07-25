@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Many_Miles__c</fullName>
+    <externalId>false</externalId>
+    <label>How Many Miles</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10 Miles</fullName>
+                <default>false</default>
+                <label>10 Miles</label>
+            </value>
+            <value>
+                <fullName>20 Miles</fullName>
+                <default>false</default>
+                <label>20 Miles</label>
+            </value>
+            <value>
+                <fullName>50 Miles</fullName>
+                <default>false</default>
+                <label>50 Miles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
