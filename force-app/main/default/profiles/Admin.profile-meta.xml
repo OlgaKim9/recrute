@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>Recrute</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
     <classAccesses>
         <apexClass>test</apexClass>
         <enabled>true</enabled>
@@ -57,7 +52,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Candidate__c.How_Many_Miles__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -240,8 +234,6 @@
         <field>Review__c.User__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -291,19 +283,6 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Candidate__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Job_Application__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Position__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Review__c</tab>
-        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
