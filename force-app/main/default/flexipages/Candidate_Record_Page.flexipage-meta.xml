@@ -149,33 +149,6 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Willing_to_travel__c</fieldItem>
-                <identifier>RecordWilling_to_travel_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.How_many_miles__c</fieldItem>
-                <identifier>RecordHow_many_miles_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Willing_to_travel__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Candidate_full_name__c</fieldItem>
@@ -234,13 +207,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.SSN__c</fieldItem>
                 <identifier>RecordSSN_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!$User.Is_Manager__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
