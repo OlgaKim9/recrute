@@ -236,9 +236,9 @@
                 <identifier>RecordSSN_cField</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!$User.Title}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>manager</rightValue>
+                        <leftValue>{!$User.Is_Manager__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
